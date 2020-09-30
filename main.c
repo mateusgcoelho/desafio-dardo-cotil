@@ -19,8 +19,8 @@ int main(int argc, char *argv[]) {
 	} else if ((x >= -5 && x <= 5) && (y >= -5 && y <= 5)) {
 	    printf("Parabens voce ganhou 5 pontos!");
 	} else if ((x >= -10 && x <= 10) && (y >= -10 && y <= 10)) {
-	    printf("Parabens voce ganhou 1 pontos!");
+	    printf("Parabens voce ganhou 1 pontos! \n");
 	}
-
-	return 0;
+	
+	system("pause");
 }
