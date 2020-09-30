@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 	scanf("%d", &y);	
 	
 	if ((x > 10 || x < -10) || (y > 10 || y < -10)) {
-    	printf("Você errou o alvo!");
+            printf("VocÃª errou o alvo!");
 	} else if ((x >= -1 && x <= 1) && (y >= -1 && y <= 1)) {
 	    printf("Parabens voce ganhou 10 pontos!");
 	} else if ((x >= -5 && x <= 5) && (y >= -5 && y <= 5)) {
